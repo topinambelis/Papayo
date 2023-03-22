@@ -10,27 +10,37 @@
 <body>
     <h1>Kāds ir tavs galvenais mērķis svara nomešanā</h1>
     <div class="button-container-div">
-<button>1-10kg</button>
+<button id="nop">1-10kg</button>
 <br>
 <br>
-<button>11-20kg</button>
+<button id="pol">11-20kg</button>
 <br>
 <br>
-<button>21-30kg</button>
+<button id="opl">21-30kg</button>
 <br>
 <br>
-<button>Paturēt svaru, bet būt veselīgākam</button>
+<button id="lop">Paturēt svaru, bet būt veselīgākam</button>
 <br>
 <br>
-<button>Neesu vēl izlēmis</button>
+<button id="met">Neesu vēl izlēmis</button>
 <br>
 <br>
 </div>
-<button id="met">turpināt</button>
-<br>
-<br>
+
 <script>
    document.getElementById("met").addEventListener("click", function() {
+      window.location.href = "lapanr8.html";
+    }); 
+    document.getElementById("nop").addEventListener("click", function() {
+      window.location.href = "lapanr8.html";
+    }); 
+    document.getElementById("pol").addEventListener("click", function() {
+      window.location.href = "lapanr8.html";
+    }); 
+    document.getElementById("lop").addEventListener("click", function() {
+      window.location.href = "lapanr8.html";
+    }); 
+    document.getElementById("opl").addEventListener("click", function() {
       window.location.href = "lapanr8.html";
     }); 
 </script>
