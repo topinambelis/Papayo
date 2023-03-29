@@ -32,7 +32,8 @@ body{
         #fac507,
         #46990b
 );
-background-size: 100% 200%;
+background-size: 100vw 100vh;
+margin: 0;
 
 }
 #papaja{
