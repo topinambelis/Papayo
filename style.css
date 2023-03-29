@@ -24,15 +24,15 @@ button{
 body{
 
 
-    background-image: 
-    linear-gradient(to right, rgb(252, 193, 67), rgb(197, 12, 12));
 
+    
     background-image: linear-gradient(
         69deg,
         #eb3528,
         #fac507,
         #46990b
 );
+background-size: 100% 200%;
 
 }
 #papaja{
