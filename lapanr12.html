@@ -21,6 +21,7 @@
 
 <button id="jess">Turpināt</button>
 <script>
+    document.getElementById("loggonik").textContent = localStorage.getItem("someVarKey")
     document.getElementById("jess").addEventListener("click", function() {
       window.location.href = "Paldies.html";
     });
