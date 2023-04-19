@@ -12,7 +12,7 @@
 <body>
     <h1>Kāds ir tavs galvenais mērķis svara nomešanā</h1>
     <div class="button-container-div">
-<button id="nop">1-10kg</button>
+<button onclick="setClicked()" id="nop">1-10kg</button>
 <br>
 <br>
 <button id="pol">11-20kg</button>
@@ -34,10 +34,11 @@
       window.location.href = "lapanr8.html";
     }); 
     document.getElementById("nop").addEventListener("click", function() {
-      let lnl = "garsigi tomati"
-      localStorage.setItem("someVarKey", lnl);
       window.location.href = "lapanr8.html";
     }); 
+    function setClicked() {
+      localStorage.setItem("someVarKey", "true");
+    }
     document.getElementById("pol").addEventListener("click", function() {
       window.location.href = "lapanr8.html";
     }); 

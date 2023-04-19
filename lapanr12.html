@@ -21,7 +21,10 @@
 
 <button id="jess">Turpināt</button>
 <script>
-    document.getElementById("loggonik").textContent = localStorage.getItem("someVarKey")
+    if (localStorage.getItem("someVarKey") === "true"){
+    document.getElementById("loggonik").innerHTML = "TDI(Terapeitiskās dzīvesveida izmaiņas) diēta. Šī diēta ir savā ziņā elastīga,jo tā ļauj ēst lielāko daļu no cilvēka ierastajām maltītēm, tikai aizstājot baltos miltus ar pilngraudu miltiem un treknu gaļu aizstājot ar liesu gaļu.";
+}
+
     document.getElementById("jess").addEventListener("click", function() {
       window.location.href = "Paldies.html";
     });
