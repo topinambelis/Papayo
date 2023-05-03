@@ -10,19 +10,20 @@
     <script src="yawaskript.js"></script>
 </head>
 <body>
-    
+    <div class="button-container-div">
 <h1>Paldies, ka izvēlējies Papayo pakalpojumu!
-     mēs esam sakopoijuši tavas atbildes un izvēlējušies
-      diētas plānu, tieši tev!</h1>
+     mēs esam sakopoijuši<br> tavas atbildes un izvēlējušies
+      diētas plānu, tieši tev!<br></h1>
 <br>
 <br>
 
     <p id="loggonik"></p>
 
 <button id="jess">Turpināt</button>
+</div>
 <script>
     if (localStorage.getItem("someVarKey") === "true"){
-    document.getElementById("loggonik").innerHTML = "TDI(Terapeitiskās dzīvesveida izmaiņas) diēta. Šī diēta ir savā ziņā elastīga,jo tā ļauj ēst lielāko daļu no cilvēka ierastajām maltītēm, tikai aizstājot baltos miltus ar pilngraudu miltiem un treknu gaļu aizstājot ar liesu gaļu.";
+    document.getElementById("loggonik").innerHTML = "TDI(Terapeitiskās dzīvesveida izmaiņas) diēta. Šī diēta ir savā ziņā elastīga,jo<br> tā ļauj ēst lielāko daļu no cilvēka ierastajām maltītēm, tikai aizstājot<br> baltos miltus ar pilngraudu miltiem un treknu gaļu aizstājot ar liesu gaļu.<br>";
 }
 
     document.getElementById("jess").addEventListener("click", function() {

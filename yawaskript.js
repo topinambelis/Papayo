@@ -1,4 +1,4 @@
-if(document.getElementById('nop').clicked == true)
+if(sessionStorage.getElementById('nop').clicked == true)
 {
     document.getElementById('loggonik').innerHTML = "baiga stelle";
 }
